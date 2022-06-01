@@ -93,6 +93,9 @@ class ChartComponent {
         if (this.theme) {
             options.theme = this.theme;
         }
+        if (this.forecastDataPoints) {
+            options.forecastDataPoints = this.forecastDataPoints;
+        }
         if (this.chartObj) {
             this.chartObj.destroy();
         }
